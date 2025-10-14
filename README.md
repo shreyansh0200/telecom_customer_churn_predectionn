@@ -4,12 +4,17 @@
 The **Telecom Customer Churn Prediction** project focuses on analyzing and predicting customer churn — i.e., whether a customer is likely to leave the telecom service.
 
 The dataset contains information on **7,043 customers** from a telecommunications company.  
-Each record represents one customer and includes details about their **demographics, location, tenure, subscription services, and churn status** (joined, stayed, or churned).
+Each record represents one customer and includes details about their **'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
+       'gill-attachment', 'gill-spacing', 'gill-size', 'gill-color',
+       'stalk-shape', 'stalk-root', 'stalk-surface-above-ring',
+       'stalk-surface-below-ring', 'stalk-color-above-ring',
+       'stalk-color-below-ring', 'veil-type', 'veil-color', 'ring-number',
+       'ring-type', 'spore-print-color', 'population', 'habitat'** (eatable, poisness).
 
 ---
 
 ## 🎯 Aim
-To **predict whether a customer will churn or not** using machine learning techniques.
+To **predict whether a mushroom is  eatable or not** using machine learning techniques.
 
 ---
 
@@ -24,7 +29,7 @@ The following essential libraries were utilized for data manipulation, visualiza
 * **`seaborn`** & **`matplotlib.pyplot`**: For Exploratory Data Analysis (EDA) and visualization.
 * **`sklearn.model_selection.train_test_split`**: To split the dataset into training and testing sets.
 * **`sklearn.tree.DecisionTreeClassifier`**, **`plot_tree`**, **`export_text`**: For model training and visualization of the resulting decision tree.
-* **`sklearn.metrics.ConfusionMatrixDisplay`** & **`accuracy_score`**: For model performance evaluation.
+* **`sklearn.metrics.ConfusionMatrixDisplay`** & **`score`**: For model performance evaluation.
 * **`sklearn.preprocessing.LabelEncoder`**: To convert categorical features into a numerical format.
 
 ---
