@@ -14,7 +14,7 @@ Each record represents one customer, and contains details about their demographi
   sklearn
 
  ## Steps :-
- *1- Import dataset*
+ *1- Import dataset* /n
  2- EDA identification
  3- Split the data (train and test)
  4- Fit/train the model
