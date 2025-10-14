@@ -15,11 +15,15 @@ To **predict whether a customer will churn or not** using machine learning techn
 
 ## 🧠 Libraries Used
 ```python
-numpy  
-pandas  
-matplotlib.pyplot  
-seaborn  
-sklearn
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier , plot_tree , export_text
+from sklearn.metrics import ConfusionMatrixDisplay,accuracy_score
+from sklearn.preprocessing import LabelEncoder
+'''
 
 
  ## Steps :-
