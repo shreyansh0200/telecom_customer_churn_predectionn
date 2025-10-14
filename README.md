@@ -8,13 +8,13 @@ Each record represents one customer, and contains details about their demographi
  To predict whether the customer is churned or not.
 
 ## Library used:-
-  numpy
-  pandas
-  matplotlib.pyplot
+  numpy, 
+  pandas,
+  matplotlib.pyplot,
   sklearn
 
  ## Steps :-
- 1- Import dataset
+ *1- Import dataset*
  2- EDA identification
  3- Split the data (train and test)
  4- Fit/train the model
