@@ -8,21 +8,10 @@ Each record represents one customer, and contains details about their demographi
  To predict whether the customer is churned or not.
 
 ## Library used:-
-  numpy, 
-  pandas,
-  matplotlib.pyplot,
-  sklearn
+  numpy, ________________  pandas,_______________  matplotlib.pyplot,__________________  sklearn
 
  ## Steps :-
- *1- Import dataset* /n
- 2- EDA identification
- 3- Split the data (train and test)
- 4- Fit/train the model
- 5- Model evaluation 
- 6- Score analysis
- 7- Feature evaluation and optimization
- 8- Confusion matrix display.
-
+ 1- Import dataset __________________ 2- EDA identification______________ 3- Split the data (train and test)____________________________________ 4- Fit/train the model__________________________ 5- Model evaluation _____________________ 6- Score analysis________________________ 7- Feature evaluation and optimization__________________ 8- Confusion matrix display._____________________
  ## Algorithm used:-
    Using DecisionTreeClassifier for training the model. (model is train based on entropy or randomness of data)
   
