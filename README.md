@@ -13,7 +13,7 @@ To **predict whether a customer will churn or not** using machine learning techn
 
 ---
 ## Live:
-  (C:\Users\shrey\PycharmProjects\telecom_customer_churn_prediction\templates\ml1.html)
+  [C:\Users\shrey\PycharmProjects\telecom_customer_churn_prediction\templates\ml1.html]
 
 ## 🧠 Libraries Used
 
