@@ -13,7 +13,7 @@ To **predict whether a customer will churn or not** using machine learning techn
 
 ---
 ## Live:
-  [C:\Users\shrey\PycharmProjects\telecom_customer_churn_prediction\templates\ml1.html]
+[View the Live App](https://telecom-customer-churn-predection-1.onrender.com/)
 
 ## 🧠 Libraries Used
 
@@ -48,6 +48,6 @@ The project followed a systematic approach to model development:
 ### **Algorithm Used: Decision Tree Classifier** 🌳
 
 * The machine learning model chosen for this prediction task is the **Decision Tree Classifier** from `scikit-learn`.
-* The model is trained based on the **entropy** criterion, which measures the impurity or randomness of the data to guide the optimal splitting of nodes in the tree. This helps in building a tree that provides the most information gain at each split, leading to better classification of churn and non-churn customers.
+* The model is trained based on the **entropy** criterion, which measures the impurity or randomness of the data to guide the optimal splitting of nodes in the tree. This helps in building a tree that[...]
 
  
