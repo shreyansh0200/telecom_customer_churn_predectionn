@@ -12,6 +12,8 @@ Each record represents one customer and includes details about their **demograph
 To **predict whether a customer will churn or not** using machine learning techniques.
 
 ---
+## Live:
+  (C:\Users\shrey\PycharmProjects\telecom_customer_churn_prediction\templates\ml1.html)
 
 ## 🧠 Libraries Used
 
