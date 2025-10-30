@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML Predict - Input</title>
+  <link rel="stylesheet" href="/static/css/ml1.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1> Predict Churn Label</h1>
+    <p>Enter your details below and see the prediction!</p>
+
+    <div class="note-box">
+      <h2>Note: Churn Category Codes</h2>
+      <h3>0 → Attitude</h3>
+      <h3>1 → Competitor</h3>
+      <h3>2 → Dissatisfaction</h3>
+      <h3>3 → Other</h3>
+      <h3>4 → Price</h3>
+      <h3>5 → nan</h3>
+    </div>
+
+    <form action="/result" method="post">
+      <label for="churn">Churn Category (numeric)</label>
+      <input id="churn" name="Churn Category" type="number" step="any" inputmode="decimal" value="{{ churn_category|default('') }}" required>
+
+      <label for="tenure">Tenure in Months (numeric)</label>
+      <input id="tenure" name="Tenure in Months" type="number" step="any" inputmode="decimal" value="{{ tenure_months|default('') }}" required>
+
+      <button type="submit"> Predict</button>
+    </form>
+  </div>
+</body>
+</html>
